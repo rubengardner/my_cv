@@ -33,6 +33,10 @@
 .bg-color-work-history {
     background-color: #9b59b6;
 }
+
+.bg-color-academic-history{
+    background-color: #3498db;
+}
 /*---------------------Special padding/margins---------------*/
 h1,
 h2,
@@ -327,6 +331,18 @@ footer {
 
 /*--------------------academics-------------*/
 .academic {
-    padding-top: 30px;
     text-align: center;
+    color: #fafafa;
+}
+
+.academic h4 {
+    padding: 30px 0 30px 0;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+}
+
+.academic hr{
+    margin-top: 30px;
+    border: 1px solid #fff;
+    width:80%;
 }
